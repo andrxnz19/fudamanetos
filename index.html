@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../imagenes/icono.png">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&display=swap" rel="stylesheet">
+    <title>Tooltime</title>
+</head>
+<body>
+    <header class="header">
+        <b>
+        <a href="index.html">| Inicio |</a>
+        <a href="agricola.html">| Agrícola |</a>
+        <a href="construccion.html">| Construcción |</a>
+        <a href="mineria.html">| Minería |</a>
+        <a href="energia.html">| Energía |</a>
+        <a href="soluciones.html">| Soluciones Viales |</a>
+        <a href="otros.html">| Otros |</a>
+    </b>
+    </header>
+    <main>
+        <h2>Bienvenido a Tooltime</h2>
+        <p>Seleccione una categoría del menú para explorar nuestros productos  </p>
+    </main>
+    <footer id="contacto_jma">
+        <div class="contenedor footer-content">
+            <div class="contáctenos">
+                <h3>¿Deseas contactarnos?</h3>
+            </div>
+    
+            <form action="contactenos.html" method="post">
+                <ul>
+                    <li>
+                        <label>Nombres y apellidos:</label>
+                        <input type="text" name="full_name" placeholder="Ingrese aquí" required>
+                        <label>Correo electrónico:</label>
+                        <input type="email" name="email" placeholder="Inserte aquí" required>
+                        <label>¿Cuál es tu consulta?</label>
+                        <textarea id="msg" name="user_message" placeholder="Inserte aquí" required></textarea>
+                        <input type="submit" value="Enviar" >
+                    </li> 
+                </ul>
+            </form>
+        </div>
+    </footer>
+    </body>
+    </html>
+  <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: goldenrod;
+    
+}
+body {
+        font-family: 'Indie Flower';
+        background-color: #9c9494;
+        color: #836f6f;
+        line-height: 1.6;
+        padding: 0;
+        margin: 0;
+    }
+    
+
+header {
+    background-color: #333;
+    padding: 10px 7;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+        text-align: center;
+        background-image: url("../imagenes/foto_principal.png");
+    }
+    
+    main h2 {
+        font-size: 2.5rem;
+        font-family: 'Caveat';
+        color: #d97c0a;
+        font-size: 100px;
+        
+    }
+    
+    main p {
+        font-size: 1.5rem;
+        color: #000000;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+        margin-bottom: 50px;
+        background-color: antiquewhite;
+        border-radius: 20px;
+
+    }
+    
+    footer {
+    font-family: 'Caveat';
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: 'Caveat';
+}
